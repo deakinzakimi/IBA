@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/LoginLayout.cshtml";
+}
+
+<div style="margin-left:750px; margin-right:700px;" class="form-signin">
+
+
+        <div class="text-center mb-4">
+            <img class="mb-4" src="~/Content/images/calander.png" alt="" width="72" height="72">
+            <a class="h1 mb-3 font-weight-normal textColor" href="@Url.Action("Index", "Home")"><h1>Appointment</h1></a>
+        </div>
+
+        <div class="form-label-group">
+
+            <a type="button" class="btn btn-dark btn-lg download-button" href="@Url.Action("Index", "Student")"> Student </a>
+            <a type="button" class="btn btn-outline-light btn-lg download-button" href="@Url.Action("Index", "Organiser" )"> Organiser </a>
+
+        </div>
+
+
+        <p class="mt-5 mb-3 text-muted text-center">&copy; Easyyyyy</p>
+
+</div>
+
+

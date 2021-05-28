@@ -1,0 +1,51 @@
+﻿@model habonapp.Models.Organiser
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/LoginLayout.cshtml";
+
+}
+
+<form style="margin-left:750px; margin-right:700px;" class="form-signin" action="/Organiser/Index" method="post">
+
+
+    <div class="text-center mb-4">
+        <img class="mb-4" src="~/Content/images/calander.png" alt="" width="72" height="72">
+        <a style="text-decoration: none; color: white;" class="h1 mb-3 font-weight-normal textColor" href="@Url.Action("Index", "Home")">Appointment</a>
+        <br>
+    </div>
+
+    <div class="form-label-group">
+        <input type="text" name="username" class="form-control" placeholder="username" required autofocus>
+        <label class="textColor" for="inputText">Username</label>
+    </div>
+
+    <div class="form-label-group">
+        <input type="password" name="password" class="form-control" placeholder="Password" required>
+        <label class="textColor" for="inputPassword">Password</label>
+    </div>
+
+    <div class="checkbox mb-3">
+        <label class="textColor">
+            <input type="checkbox" value="remember-me">Remember me
+        </label>
+    </div>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+
+    <a type="button" class="btn btn-dark btn-lg btn-block" href="@Url.Action("Index", "Signin" )">Create a New Account?</a>
+    <p class="mt-5 mb-3 text-muted text-center">&copy; Easyyyyy</p>
+
+    <div>
+        <a style="text-decoration: none; color: white; padding:80px;" class="h3 mb-3 font-weight-normal textColor"> @ViewBag.result</a>
+       
+    </div>
+
+    @if ((string)TempData["Added"] == "Added")
+    {
+
+    }
+
+</form>
+
+

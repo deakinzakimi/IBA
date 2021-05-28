@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{1F5FAB7E-1FBD-4BAF-BAE8-CED2715AD8C8}|">
+  <MonoDevelop.Ide.ItemProperties.habonapp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="habonapp/Controllers/OrganiserController.cs">
+    <Files>
+      <File FileName="habonapp/Controllers/OrganiserController.cs" Line="46" Column="1" />
+      <File FileName="habonapp/Views/Organiser/Index.cshtml" Line="27" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="habonapp" expanded="True">
+            <Node name="habonapp" expanded="True">
+              <Node name="Content" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="OrganiserController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="LoginHome" expanded="True" />
+                <Node name="Organiser" expanded="True" />
+                <Node name="Signin" expanded="True" />
+                <Node name="Student" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
